@@ -5,7 +5,7 @@ This repo contains my implementation of the Sub Strings project as described in 
 
 The documentation says to: 
 
-  ```Implement a method #substrings that takes a word as the first argument and then an array of valid substrings (your dictionary) as the second argument. It should return a hash listing each substring (case insensitive) that was found in the original string and how many times it was found.```
+  ```Implement a method #substrings that takes a word as the first argument and then an array of valid substrings (your dictionary) as the second argument. It should return a hash listing each substring (case-insensitive) that was found in the original string and how many times it was found.```
   
 and gives these examples:
 
@@ -26,6 +26,6 @@ Mulitple word support
 
 ## substrings.rb
 
-I decided to create a method that first initializes a new hash to count all the words then it loops through each word inside the passed dictionary, For each word in the dictionary it checks to see if that word is included in the string and if it is then scans for the number of times that word is insdie the string finally returning the original hash with all the words and assosiated counts.
+I decided to create a method that first initializes a new hash to count all the words then it loops through each word inside the passed dictionary, For each word in the dictionary it checks to see if that word is included in the string and if it is then scans for the number of times that word is inside the string finally returning the original hash with all the words and associated counts.
 
 [Source](https://www.theodinproject.com/lessons/ruby-sub-strings)
