@@ -24,4 +24,8 @@ Mulitple word support
   => { "down" => 1, "go" => 1, "going" => 1, "how" => 2, "howdy" => 1, "it" => 2, "i" => 3, "own" => 1, "part" => 1, "partner" => 1, "sit" => 1 }
 ```
 
+## substrings.rb
+
+I decided to create a method that first initializes a new hash to count all the words then it loops through each word inside the passed dictionary, For each word in the dictionary it checks to see if that word is included in the string and if it is then scans for the number of times that word is insdie the string finally returning the original hash with all the words and assosiated counts.
+
 [Source](https://www.theodinproject.com/lessons/ruby-sub-strings)
